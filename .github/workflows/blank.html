@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web Sederhana</title>
+    <style>
+        /* CSS untuk tata letak dasar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            padding: 8px 15px;
+            background-color: #333;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Halaman Web Saya</h1>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Beranda</h2>
+            <p>Ini adalah contoh halaman web sederhana. Anda bisa menggunakan HTML, CSS, dan JavaScript untuk membuat tampilan dan fungsionalitas sesuai keinginan Anda.</p>
+            <button onclick="greetUser()">Klik Saya</button>
+        </section>
+
+        <section id="about">
+            <h2>Tentang</h2>
+            <p>Halaman ini dibuat sebagai contoh bagaimana membuat website dasar dengan HTML, CSS, dan JavaScript.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak</h2>
+            <p>Hubungi kami di <a href="mailto:email@domain.com">email@domain.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Halaman Web Sederhana. All rights reserved.
+    </footer>
+
+    <script>
+        // JavaScript sederhana untuk interaksi
+        function greetUser() {
+            alert("Halo, selamat datang di halaman web saya!");
+        }
+    </script>
+</body>
+              </html>
